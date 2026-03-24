@@ -1,9 +1,15 @@
+/* BookFactory.java
+   Book factory class
+   Author: Nomhle Njengele (2116227488)
+   Date: 13 March 2026
+*/
+
+package factory;
 import domain.Book;
-import factory.BookFactory;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class BookTest {
+public class BookFactoryTest {
 
         @Test
         public void testBookIsCreated() {
